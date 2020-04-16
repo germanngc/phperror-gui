@@ -4,6 +4,10 @@ A clean and effective single-file GUI for viewing entries in the PHP error log, 
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=acollington&url=https://github.com/amnuts/phperror-gui&title=phperror-gui&language=&tags=github&category=software)
 
+### NOTE: 2020-04-16
+
+Adapted to work with multiple logs and structure.
+
 ### getting started
 
 There are two ways to getting started using this gui.
