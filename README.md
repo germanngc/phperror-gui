@@ -1,27 +1,22 @@
-# phperror-gui
+# phperror-gui (v2)
 
 A clean and effective single-file GUI for viewing entries in the PHP error log, allowing for filtering by path and by type.
 
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=acollington&url=https://github.com/amnuts/phperror-gui&title=phperror-gui&language=&tags=github&category=software)
-
 ### NOTE: 2020-04-16
 
-Adapted to work with multiple logs and structure.
+Adapted to work with multiple logs and structure in AWS Cloud Watch format Error Log
 
-### getting started
+If you like to donate the original creator you can do it here: [Donate](https://flattr.com/submit/auto?user_id=acollington&url=https://github.com/amnuts/phperror-gui&title=phperror-gui&language=&tags=github&category=software)
 
-There are two ways to getting started using this gui.
+### Getting Started
 
-1. Simply to copy/paste or download the phperror-gui.php to your server.
-2. Install via composer by running the command `composer require amnuts/phperror-gui`
+1. Simply to copy/paste or download the phperror-gui/index.php to your server.
 
 ### usage
 
 Simply load the script up in your browser and it should show you the entries from the PHP log file.  It will find the error log from the ini settings, though if you want to specify the log file you can change the `$error_log` variable to the path of your error log file.
 
 You can select the types of errors you want displaying, sort in different ways or filter based on the path of the file producing the error (as recoded in the log).
-
-![Usage](http://amnuts.com/images/phperror/screenshot/usage.png)
 
 The interface will also attempt to show you the snippet of code where the error has occurred and also the stack trace if it's recorded in the log file.
 
